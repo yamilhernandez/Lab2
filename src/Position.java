@@ -67,7 +67,7 @@ public class Position {
 	 */
 	public double getYearlySalary() {
 		
-		if (jobType == true){
+		if (jobType){
 			return hSalary*40*4.5*12;
 			
 		}
